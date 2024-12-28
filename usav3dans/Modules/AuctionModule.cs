@@ -8,7 +8,7 @@ using Timer = System.Timers.Timer;
 namespace ConvexAuctionBot.Modules;
 
 [Group("auction", "commands for managing the auction")]
-public class AuctionModule : InteractionModuleBase<SocketInteractionContext>
+public class  AuctionModule : InteractionModuleBase<SocketInteractionContext>
 {
     public InteractionService Commands { get; set; } = null!;
     public CommandHandler _handler;

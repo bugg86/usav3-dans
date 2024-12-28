@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConvexAuctionBot", "ConvexAuctionBot\ConvexAuctionBot.csproj", "{519916A4-F573-4F98-AA21-14D5709BDA3E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "usav3dans", "usav3dans\usav3dans.csproj", "{519916A4-F573-4F98-AA21-14D5709BDA3E}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{2CAF77A3-C3CC-49D9-9CAC-61473BF5F664}"
 	ProjectSection(SolutionItems) = preProject

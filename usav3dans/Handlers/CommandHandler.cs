@@ -1,10 +1,8 @@
 ﻿using System.Reflection;
-using System.Text.RegularExpressions;
 using ConvexAuctionBot.Services.Interfaces;
 using Discord;
 using Discord.Interactions;
 using Discord.WebSocket;
-using Microsoft.CSharp.RuntimeBinder;
 using Microsoft.Extensions.DependencyInjection;
 
 namespace ConvexAuctionBot.Handlers;
@@ -45,68 +43,7 @@ public class CommandHandler
 
     private async Task HandleMessage(SocketMessage arg)
     {
-        // there has to be a better way to do this but i can't be asked finding a better way
-        if (arg.Channel.Id != auctionChannelId)
-        {
-            return;
-        }
 
-        if (arg.Author.IsBot)
-        {
-            return;
-        }
-        
-        Console.WriteLine("message is being processed");
-        
-        string auctionStatus = _auctionService.GetStatus() ?? "";
-            
-        if (!auctionStatus.Equals("true"))
-        {
-            return;
-        }
-
-        if (!arg.Content.Contains("bid") && !arg.Content.Contains("Bid"))
-        {
-            return;
-        }
-            
-        int bid = int.Parse(Regex.Match(arg.Content, @"\d+").Value);
-            
-        if (bid > 750)
-        {
-            return;
-        }
-        //25 is the bid increment
-        if (bid % 25 != 0)
-        {
-            return;
-        }
-
-        KeyValuePair<string, int> captain = _captainService.GetSingleCaptain(arg.Author.Username)!.Value;
-        if (captain.Value - bid < 0)
-        {
-            return;
-        }
-                
-        string currentPlayer = _auctionService.GetCurrentPlayer();
-        int? currentPrice = int.Parse(_auctionService.GetHighestBid());
-
-        if (bid <= currentPrice)
-        {
-            return;
-        }
-        
-        _auctionService.SetHighestBid(bid.ToString());
-        _auctionService.SetHighestBidder(captain.Key);
-        _auctionService.SetSeconds(0);
-
-        await arg.Channel.SendMessageAsync(embed: new EmbedBuilder()
-        {
-            Title = "New highest bid!",
-            Description = $"New highest bid is **{captain.Key}**: $**{bid}**",
-            Color = Color.Orange
-        }.Build());
-        // await arg.Channel.SendMessageAsync($"New highest bid is **{captain.Key}**: $**{bid}**");
     }
     
     private async Task HandleInteraction(SocketInteraction arg)
