@@ -1,0 +1,14 @@
+name: 'deploy-cloud'
+on:
+  push:
+    branches:
+      - main
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3.1.0
+      - uses: timokoenig/hetzner-cdk-action@0.1.0
+    env:
+      CDK_DEBUG: 0
+      HETZNER_AUTH_TOKEN: ${{ secrets.HETZNER_AUTH_TOKEN }}
