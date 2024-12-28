@@ -3,8 +3,8 @@ datacenter: Ashburn
 resources:
   - resourceType: Server
     name: dan-bot
-    image: ubuntu-22.04
-    serverType: cx11
+    image: ubuntu-22.04.3-live-server-amd64.iso
+    serverType: cpx11
     dockerImage: docker.io/bugg86/usav3-dans:latest
     dockerPort: "80"
     ssl:
