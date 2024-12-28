@@ -5,7 +5,7 @@ resources:
     name: spaceserver
     image: ubuntu-22.04
     serverType: cx11
-    dockerImage: docker.io/library/httpd
+    dockerImage: docker.io/bugg86/usav3-dans:latest
     dockerPort: "80"
     ssl:
       host: 5.161.207.133
