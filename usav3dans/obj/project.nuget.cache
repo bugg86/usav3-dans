@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "a9Ct8hU0Z94=",
+  "dgSpecHash": "CAA4fhKeQXo=",
   "success": true,
   "projectFilePath": "/Users/jackmacbookpro/RiderProjects/usav3-dans/usav3dans/usav3dans.csproj",
   "expectedPackageFiles": [
@@ -11,6 +11,10 @@
     "/Users/jackmacbookpro/.nuget/packages/discord.net.rest/3.17.0/discord.net.rest.3.17.0.nupkg.sha512",
     "/Users/jackmacbookpro/.nuget/packages/discord.net.webhook/3.17.0/discord.net.webhook.3.17.0.nupkg.sha512",
     "/Users/jackmacbookpro/.nuget/packages/discord.net.websocket/3.17.0/discord.net.websocket.3.17.0.nupkg.sha512",
+    "/Users/jackmacbookpro/.nuget/packages/google.apis/1.68.0/google.apis.1.68.0.nupkg.sha512",
+    "/Users/jackmacbookpro/.nuget/packages/google.apis.auth/1.68.0/google.apis.auth.1.68.0.nupkg.sha512",
+    "/Users/jackmacbookpro/.nuget/packages/google.apis.core/1.68.0/google.apis.core.1.68.0.nupkg.sha512",
+    "/Users/jackmacbookpro/.nuget/packages/google.apis.sheets.v4/1.68.0.3624/google.apis.sheets.v4.1.68.0.3624.nupkg.sha512",
     "/Users/jackmacbookpro/.nuget/packages/microsoft.bcl.asyncinterfaces/6.0.0/microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512",
     "/Users/jackmacbookpro/.nuget/packages/microsoft.extensions.configuration/9.0.0/microsoft.extensions.configuration.9.0.0.nupkg.sha512",
     "/Users/jackmacbookpro/.nuget/packages/microsoft.extensions.configuration.abstractions/9.0.0/microsoft.extensions.configuration.abstractions.9.0.0.nupkg.sha512",
@@ -40,10 +44,12 @@
     "/Users/jackmacbookpro/.nuget/packages/microsoft.extensions.options.configurationextensions/9.0.0/microsoft.extensions.options.configurationextensions.9.0.0.nupkg.sha512",
     "/Users/jackmacbookpro/.nuget/packages/microsoft.extensions.primitives/9.0.0/microsoft.extensions.primitives.9.0.0.nupkg.sha512",
     "/Users/jackmacbookpro/.nuget/packages/newtonsoft.json/13.0.3/newtonsoft.json.13.0.3.nupkg.sha512",
+    "/Users/jackmacbookpro/.nuget/packages/system.codedom/7.0.0/system.codedom.7.0.0.nupkg.sha512",
     "/Users/jackmacbookpro/.nuget/packages/system.collections.immutable/9.0.0/system.collections.immutable.9.0.0.nupkg.sha512",
     "/Users/jackmacbookpro/.nuget/packages/system.diagnostics.eventlog/9.0.0/system.diagnostics.eventlog.9.0.0.nupkg.sha512",
     "/Users/jackmacbookpro/.nuget/packages/system.interactive.async/6.0.1/system.interactive.async.6.0.1.nupkg.sha512",
     "/Users/jackmacbookpro/.nuget/packages/system.linq.async/6.0.1/system.linq.async.6.0.1.nupkg.sha512",
+    "/Users/jackmacbookpro/.nuget/packages/system.management/7.0.2/system.management.7.0.2.nupkg.sha512",
     "/Users/jackmacbookpro/.nuget/packages/system.reactive/6.0.1/system.reactive.6.0.1.nupkg.sha512",
     "/Users/jackmacbookpro/.nuget/packages/system.valuetuple/4.5.0/system.valuetuple.4.5.0.nupkg.sha512"
   ],

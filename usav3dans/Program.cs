@@ -38,8 +38,6 @@ public class Program
             var serviceProvider = services.BuildServiceProvider();
             _client = serviceProvider.GetRequiredService<DiscordSocketClient>();
             _commands = serviceProvider.GetRequiredService<InteractionService>();
-            
-            CreateDbFiles(serviceProvider);
 
             _client.Log += Log;
             _commands.Log += Log;
@@ -63,7 +61,7 @@ public class Program
         DiscordSocketConfig config = new()
         {
             UseInteractionSnowflakeDate = false,
-            GatewayIntents = GatewayIntents.AllUnprivileged | GatewayIntents.MessageContent,
+            GatewayIntents = GatewayIntents.AllUnprivileged | GatewayIntents.MessageContent | GatewayIntents.GuildMembers | GatewayIntents.GuildMessages,
             AlwaysDownloadUsers = true
         };
         services.AddSingleton(config);
@@ -71,9 +69,7 @@ public class Program
         services.AddSingleton(x => new InteractionService(x.GetRequiredService<DiscordSocketClient>()));
         services.AddSingleton<CommandHandler>();
 
-        services.AddScoped<IPlayerService, PlayerService>();
-        services.AddScoped<ICaptainService, CaptainService>();
-        services.AddScoped<IAuctionService, AuctionService>();
+        services.AddScoped<IGoogleService, GoogleService>();
     }
     
     private async Task ReadyAsync()
@@ -84,17 +80,5 @@ public class Program
     {
         Console.WriteLine(msg.ToString());
         return Task.CompletedTask;
-    }
-
-    private static void CreateDbFiles(IServiceProvider serviceProvider)
-    {
-        if (!Directory.Exists("../../../DB"))
-        {
-            Directory.CreateDirectory("../../../DB");
-        }
-        
-        serviceProvider.GetRequiredService<ICaptainService>().GenerateDbFile();
-        serviceProvider.GetRequiredService<IPlayerService>().GenerateDbFile();
-        serviceProvider.GetRequiredService<IAuctionService>().GenerateDbFile();
     }
 }
