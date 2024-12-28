@@ -22,15 +22,15 @@ public class Program
         {
             string? token;
             
-            if (!File.Exists("../../../token"))
+            if (!File.Exists("./token"))
             {
                 Console.Write("Please enter your discord bot token: ");
                 token = Console.ReadLine();
-                await File.WriteAllTextAsync("../../../token", token);
+                await File.WriteAllTextAsync("./token", token);
             }
             else
             {
-                token = await File.ReadAllTextAsync("../../../token");
+                token = await File.ReadAllTextAsync("./token");
             }
             
             ConfigureServices(services);

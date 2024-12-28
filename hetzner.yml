@@ -1,0 +1,19 @@
+﻿version: 0.1.0
+datacenter: ash-dc1
+resources:
+  - resourceType: Server
+    name: spaceserver
+    image: ubuntu-22.04
+    serverType: cx11
+    dockerImage: docker.io/library/httpd
+    dockerPort: "80"
+    ssl:
+      host: 5.161.207.133
+      letsEncryptEmail: dvntmoopz@gmail.com
+    healthCheck:
+      intervalInSeconds: 5
+      statusCode: 200
+    attachedResources:
+      - resourceType: PrimaryIP
+        name: spaceip
+        type: ipv4

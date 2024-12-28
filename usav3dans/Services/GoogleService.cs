@@ -8,7 +8,7 @@ namespace usav3dans.Services;
 
 public class GoogleService : IGoogleService
 {
-    private readonly string authFile = "../../../sheetauth.json";
+    private readonly string authFile = "./sheetauth.json";
     private readonly string spreadsheetId = "1DmT88CjgTQwxO1-2d1JwKAKzsk105obSIBjadtZnAQw";
     private readonly string sheetTitle = "Import";
 
