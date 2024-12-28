@@ -1,14 +1,14 @@
 ﻿using System.Timers;
-using ConvexAuctionBot.Handlers;
-using ConvexAuctionBot.Services.Interfaces;
+using usav3dans.Handlers;
+using usav3dans.Services.Interfaces;
 using Discord;
 using Discord.Interactions;
 using Timer = System.Timers.Timer;
 
-namespace ConvexAuctionBot.Modules;
+namespace usav3dans.Modules;
 
 [Group("auction", "commands for managing the auction")]
-public class  AuctionModule : InteractionModuleBase<SocketInteractionContext>
+public class  DansModule : InteractionModuleBase<SocketInteractionContext>
 {
     public InteractionService Commands { get; set; } = null!;
     public CommandHandler _handler;
@@ -18,7 +18,7 @@ public class  AuctionModule : InteractionModuleBase<SocketInteractionContext>
     private Timer _timer;
     private int timerTracker = 0;
 
-    public AuctionModule(CommandHandler handler, IAuctionService auctionService, ICaptainService captainService, IPlayerService playerService)
+    public DansModule(CommandHandler handler, IAuctionService auctionService, ICaptainService captainService, IPlayerService playerService)
     {
         _handler = handler;
         _auctionService = auctionService;

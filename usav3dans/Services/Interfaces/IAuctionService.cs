@@ -1,4 +1,4 @@
-﻿namespace ConvexAuctionBot.Services.Interfaces;
+﻿namespace usav3dans.Services.Interfaces;
 
 public interface IAuctionService
 {

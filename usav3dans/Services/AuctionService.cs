@@ -1,7 +1,7 @@
-﻿using ConvexAuctionBot.Services.Interfaces;
+﻿using usav3dans.Services.Interfaces;
 using Newtonsoft.Json;
 
-namespace ConvexAuctionBot.Services;
+namespace usav3dans.Services;
 
 public class AuctionService : IAuctionService
 {

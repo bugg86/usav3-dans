@@ -1,5 +1,5 @@
-﻿using ConvexAuctionBot.Handlers;
-using ConvexAuctionBot.Services.Interfaces;
+﻿using usav3dans.Handlers;
+using usav3dans.Services.Interfaces;
 using Discord.Interactions;
 
 namespace ConvexAuctionBot.Modules;

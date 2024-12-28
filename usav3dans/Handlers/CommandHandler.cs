@@ -1,32 +1,21 @@
 ﻿using System.Reflection;
-using ConvexAuctionBot.Services.Interfaces;
 using Discord;
 using Discord.Interactions;
 using Discord.WebSocket;
-using Microsoft.Extensions.DependencyInjection;
 
-namespace ConvexAuctionBot.Handlers;
+namespace usav3dans.Handlers;
 
 public class CommandHandler
 {
     private readonly DiscordSocketClient _client;
     private readonly InteractionService _commands;
     private readonly IServiceProvider _services;
-    private readonly ulong auctionChannelId;
-    private readonly ICaptainService _captainService;
-    private readonly IAuctionService _auctionService;
-    private readonly IPlayerService _playerService;
 
     public CommandHandler(DiscordSocketClient client, InteractionService commands, IServiceProvider services)
     {
         _client = client;
         _commands = commands;
         _services = services;
-        auctionChannelId = 1160214726500950077;
-        //I'm pretty sure this is not how I'm supposed to do this but i dont care
-        _auctionService = _services.GetRequiredService<IAuctionService>();
-        _captainService = _services.GetRequiredService<ICaptainService>();
-        _playerService = _services.GetRequiredService<IPlayerService>();
     }
 
     public async Task InitializeAsync()

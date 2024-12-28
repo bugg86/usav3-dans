@@ -1,13 +1,13 @@
-﻿using ConvexAuctionBot.Handlers;
-using ConvexAuctionBot.Services;
-using ConvexAuctionBot.Services.Interfaces;
+﻿using usav3dans.Handlers;
+using usav3dans.Services;
+using usav3dans.Services.Interfaces;
 using Discord;
 using Discord.Interactions;
 using Discord.WebSocket;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 
-namespace ConvexAuctionBot;
+namespace usav3dans;
 
 public class Program
 {
