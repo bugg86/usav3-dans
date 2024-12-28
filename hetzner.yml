@@ -1,8 +1,8 @@
 ﻿version: 0.1.0
-datacenter: ash-dc1
+datacenter: Ashburn
 resources:
   - resourceType: Server
-    name: spaceserver
+    name: dan-bot
     image: ubuntu-22.04
     serverType: cx11
     dockerImage: docker.io/bugg86/usav3-dans:latest
