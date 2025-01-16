@@ -23,7 +23,7 @@ public class  DansModule : InteractionModuleBase<SocketInteractionContext>
     [SlashCommand("submit", "submit an mp for your dan")]
     public async Task Submit(string mp)
     {
-        var values = _googleService.PushMp(mp);
+        var values = _googleService.PushDansMp(mp);
 
         await RespondAsync("Added the mp to the sheet");
     }
@@ -31,7 +31,7 @@ public class  DansModule : InteractionModuleBase<SocketInteractionContext>
     [SlashCommand("test", "test random shit")]
     public async Task Test()
     {
-        var values = _googleService.PushMp("balls");
+        var values = _googleService.PushDansMp("balls");
 
         Console.WriteLine(values);
         foreach (var column in values.Result.Values)

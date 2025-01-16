@@ -22,15 +22,15 @@ public class Program
         {
             string? token;
             
-            if (!File.Exists("./token"))
+            if (!File.Exists("../../../token"))
             {
                 Console.Write("Please enter your discord bot token: ");
                 token = Console.ReadLine();
-                await File.WriteAllTextAsync("./token", token);
+                await File.WriteAllTextAsync("../../../token", token);
             }
             else
             {
-                token = await File.ReadAllTextAsync("./token");
+                token = await File.ReadAllTextAsync("../../../token");
             }
             
             ConfigureServices(services);
@@ -70,6 +70,9 @@ public class Program
         services.AddSingleton<CommandHandler>();
 
         services.AddScoped<IGoogleService, GoogleService>();
+        services.AddScoped<IOsuApiService, OsuApiService>();
+
+        services.AddHttpClient();
     }
     
     private async Task ReadyAsync()
