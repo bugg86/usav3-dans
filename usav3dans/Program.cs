@@ -13,6 +13,7 @@ public class Program
 {
     private DiscordSocketClient? _client;
     private InteractionService _commands = null!;
+    private string tokenPath = "./token";
     
     public static Task Main(string[] args) => new Program().MainAsync();
 
@@ -22,15 +23,15 @@ public class Program
         {
             string? token;
             
-            if (!File.Exists("../../../token"))
+            if (!File.Exists(tokenPath))
             {
                 Console.Write("Please enter your discord bot token: ");
                 token = Console.ReadLine();
-                await File.WriteAllTextAsync("../../../token", token);
+                await File.WriteAllTextAsync(tokenPath, token);
             }
             else
             {
-                token = await File.ReadAllTextAsync("../../../token");
+                token = await File.ReadAllTextAsync(tokenPath);
             }
             
             ConfigureServices(services);

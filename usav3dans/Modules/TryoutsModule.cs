@@ -33,13 +33,13 @@ public class TryoutsModule : InteractionModuleBase<SocketInteractionContext>
 
         if (!isValid)
         {
-            await RespondAsync("Your mp is not valid, likely because you played a map before sending it to us.");
+            await RespondAsync("Your mp is not valid, likely because you played a map before sending it to us.", ephemeral: true);
             return;
         }
 
         var temp = _googleService.PushTryoutsMp(mp);
 
-        await RespondAsync($"Submitted your mp to the sheet!");
+        await RespondAsync($"Submitted your mp to the sheet!", ephemeral: true);
     }
 
     private bool VerifyMatch(MatchBase match)
