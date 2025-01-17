@@ -1,6 +1,0 @@
-﻿services:
-  convexauctionbot:
-    image: convexauctionbot
-    build:
-      context: .
-      dockerfile: ConvexAuctionBot/Dockerfile

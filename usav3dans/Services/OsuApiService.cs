@@ -1,8 +1,9 @@
 ﻿using System.Net.Http.Headers;
-using Botvex.osu.Services.Interfaces;
+using usav3dans.Services.Interfaces;
 using Newtonsoft.Json;
+using usav3dans.Models;
 
-namespace Botvex.osu.Services;
+namespace usav3dans.Services;
 
 public class OsuApiService : IOsuApiService
 {
@@ -12,6 +13,43 @@ public class OsuApiService : IOsuApiService
     public OsuApiService(HttpClient httpClient)
     {
         _httpClient = httpClient;
+    }
+
+    public async Task<User> GetUser(int id)
+    {
+        throw new NotImplementedException();
+    }
+
+    public async Task<Beatmap> GetBeatmap(int id)
+    {
+        throw new NotImplementedException();
+    }
+
+    public async Task<Beatmapset> GetBeatmapset(int id)
+    {
+        throw new NotImplementedException();
+    }
+
+    public async Task<MatchBase> GetMatch(int id)
+    {
+        var request = new HttpRequestMessage()
+        {
+            Method = HttpMethod.Get,
+            RequestUri = new Uri(BaseAddress + $"/matches/{id}"),
+            Headers = { Accept = { new MediaTypeWithQualityHeaderValue("application/json") } }
+        };
+
+        request.Headers.Authorization = new AuthenticationHeaderValue("Bearer", await GetBearerToken());
+
+        var response = await _httpClient.SendAsync(request);
+        var responseBody = JsonConvert.DeserializeObject<MatchBase>(response.Content.ReadAsStringAsync().Result);
+
+        if (responseBody is null)
+        {
+            throw new NullReferenceException("Error when deserializing response");
+        }
+
+        return responseBody;
     }
 
     private async Task<string> GetBearerToken()
@@ -48,7 +86,7 @@ public class OsuApiService : IOsuApiService
                 .Error;
         }
 
-        return "Bearer " + responseBody.Access_token;
+        return responseBody.Access_token;
     }
 
     private class AuthSuccess
