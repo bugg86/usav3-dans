@@ -1,4 +1,5 @@
-﻿using System.Timers;
+﻿using System.Text.RegularExpressions;
+using System.Timers;
 using usav3dans.Handlers;
 using usav3dans.Services.Interfaces;
 using usav3dans.Services;
@@ -20,10 +21,13 @@ public class  DansModule : InteractionModuleBase<SocketInteractionContext>
         _googleService = googleService;
     }
 
-    [SlashCommand("submit", "submit an mp for your dan")]
-    public async Task Submit(string mp)
+    [SlashCommand("submit", "submit an mp for your dan, sheet must be in the format of YXQX. Example: Y1Q1")]
+    public async Task Submit(string mp, string sheet)
     {
-        var values = _googleService.PushDansMp(mp);
+        if (Regex.IsMatch(sheet, @"Y\dQ\d"))
+            await RespondAsync("Could not add mp to the sheet, please follow the correct format for sheet.");
+        
+        var values = _googleService.PushDansMp(mp, sheet);
 
         await RespondAsync("Added the mp to the sheet");
     }
@@ -31,7 +35,7 @@ public class  DansModule : InteractionModuleBase<SocketInteractionContext>
     [SlashCommand("test", "test random shit")]
     public async Task Test()
     {
-        var values = _googleService.PushDansMp("balls");
+        var values = _googleService.PushDansMp("balls", "");
 
         Console.WriteLine(values);
         foreach (var column in values.Result.Values)

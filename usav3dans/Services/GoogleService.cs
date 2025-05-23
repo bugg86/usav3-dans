@@ -9,12 +9,25 @@ namespace usav3dans.Services;
 public class GoogleService : IGoogleService
 {
     private readonly string authFile = "./sheetauth.json";
-    private readonly string dansSpreadsheetId = "1DmT88CjgTQwxO1-2d1JwKAKzsk105obSIBjadtZnAQw";
+    private readonly string dansY1Q1SpreadsheetId = "1DmT88CjgTQwxO1-2d1JwKAKzsk105obSIBjadtZnAQw";
+    private readonly string dansY1Q2SpreadsheetId = "1uDOsSjtNJrF42s7HKq3xJiE25HknTVMkdaYtLN9YT0A";
     private readonly string dansSheetTitle = "Import";
     private readonly string tryoutsSheetId = "1UctdsBog2ESkTJamwSsoY_rNu1RcVRNds796eX8QtSY";
 
-    public async Task<ValueRange> PushDansMp(string mp)
+    public async Task<ValueRange> PushDansMp(string mp, string sheet)
     {
+        string dansSpreadsheetId = "";
+        
+        switch (sheet)
+        {
+            case "Y1Q1":
+                dansSpreadsheetId = dansY1Q1SpreadsheetId;
+                break;
+            case "Y1Q2":
+                dansSpreadsheetId = dansY1Q2SpreadsheetId;
+                break;
+        }
+        
         var service = InitService();
         var mps = await service.Spreadsheets.Values.Get(dansSpreadsheetId, "Import!H3:H").ExecuteAsync();
 
