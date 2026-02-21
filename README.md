@@ -15,7 +15,7 @@ To recreate this project with the same configuration:
 
 ```sh
 # recreate this project
-bun x sv create --template minimal --types ts --install bun usav3-dans
+bun x sv create --template minimal --types ts --add tailwindcss="plugins:none" --install bun usav3-dans
 ```
 
 ## Developing

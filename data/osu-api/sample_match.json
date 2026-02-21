@@ -1,0 +1,809 @@
+{
+	"match": {
+		"id": 119830765,
+		"start_time": "2025-11-15T07:11:46+00:00",
+		"end_time": "2025-11-15T07:37:31+00:00",
+		"name": "Ultra Gimmick Hidden Cup 2 Winning Team"
+	},
+	"events": [
+		{
+			"id": 2472790289,
+			"detail": {
+				"type": "match-created"
+			},
+			"timestamp": "2025-11-15T07:11:46+00:00",
+			"user_id": 10224047
+		},
+		{
+			"id": 2472790336,
+			"detail": {
+				"type": "player-joined"
+			},
+			"timestamp": "2025-11-15T07:12:13+00:00",
+			"user_id": 10552096
+		},
+		{
+			"id": 2472790347,
+			"detail": {
+				"type": "player-joined"
+			},
+			"timestamp": "2025-11-15T07:12:18+00:00",
+			"user_id": 10224047
+		},
+		{
+			"id": 2472790454,
+			"detail": {
+				"type": "other",
+				"text": "Ultra Gimmick Hidden Cup 2 Winning Team"
+			},
+			"timestamp": "2025-11-15T07:13:13+00:00",
+			"user_id": null,
+			"game": {
+				"beatmap_id": 4311527,
+				"id": 628476230,
+				"start_time": "2025-11-15T07:13:13Z",
+				"end_time": "2025-11-15T07:15:51Z",
+				"match_id": 119830765,
+				"mode": "osu",
+				"mode_int": 0,
+				"scoring_type": "scorev2",
+				"team_type": "head-to-head",
+				"mods": [
+					"NF"
+				],
+				"beatmap": {
+					"beatmapset_id": 2062097,
+					"difficulty_rating": 4.60271,
+					"id": 4311527,
+					"mode": "osu",
+					"status": "graveyard",
+					"total_length": 149,
+					"user_id": 10599340,
+					"version": "Insane",
+					"beatmapset": {
+						"anime_cover": true,
+						"artist": "nomanoa",
+						"artist_unicode": "のまノア",
+						"covers": {
+							"cover": "https://assets.ppy.sh/beatmaps/2062097/covers/cover.jpg?1697371295",
+							"cover@2x": "https://assets.ppy.sh/beatmaps/2062097/covers/cover@2x.jpg?1697371295",
+							"card": "https://assets.ppy.sh/beatmaps/2062097/covers/card.jpg?1697371295",
+							"card@2x": "https://assets.ppy.sh/beatmaps/2062097/covers/card@2x.jpg?1697371295",
+							"list": "https://assets.ppy.sh/beatmaps/2062097/covers/list.jpg?1697371295",
+							"list@2x": "https://assets.ppy.sh/beatmaps/2062097/covers/list@2x.jpg?1697371295",
+							"slimcover": "https://assets.ppy.sh/beatmaps/2062097/covers/slimcover.jpg?1697371295",
+							"slimcover@2x": "https://assets.ppy.sh/beatmaps/2062097/covers/slimcover@2x.jpg?1697371295"
+						},
+						"creator": "HappyChoker",
+						"favourite_count": 13,
+						"genre_id": 5,
+						"hype": null,
+						"id": 2062097,
+						"language_id": 3,
+						"nsfw": false,
+						"offset": 0,
+						"play_count": 7508,
+						"preview_url": "//b.ppy.sh/preview/2062097.mp3",
+						"source": "",
+						"spotlight": false,
+						"status": "graveyard",
+						"title": "paranoia",
+						"title_unicode": "パラノイア",
+						"track_id": null,
+						"user_id": 10599340,
+						"video": false
+					}
+				},
+				"scores": [
+					{
+						"accuracy": 0.6401408450704226,
+						"best_id": null,
+						"created_at": "2025-11-15T07:13:13Z",
+						"id": null,
+						"max_combo": 200,
+						"mode": "osu",
+						"mode_int": 0,
+						"mods": [
+							"NF"
+						],
+						"passed": true,
+						"perfect": false,
+						"pp": null,
+						"rank": "D",
+						"replay": false,
+						"score": 68485,
+						"statistics": {
+							"count_100": 190,
+							"count_300": 373,
+							"count_50": 109,
+							"count_geki": 81,
+							"count_katu": 53,
+							"count_miss": 38
+						},
+						"type": "legacy_match_score",
+						"user_id": 10552096,
+						"current_user_attributes": {
+							"pin": null
+						},
+						"match": {
+							"slot": 0,
+							"team": "none",
+							"pass": true
+						}
+					},
+					{
+						"accuracy": 0.9953051643192489,
+						"best_id": null,
+						"created_at": "2025-11-15T07:13:13Z",
+						"id": null,
+						"max_combo": 888,
+						"mode": "osu",
+						"mode_int": 0,
+						"mods": [
+							"NF"
+						],
+						"passed": true,
+						"perfect": false,
+						"pp": null,
+						"rank": "S",
+						"replay": false,
+						"score": 983310,
+						"statistics": {
+							"count_100": 5,
+							"count_300": 705,
+							"count_50": 0,
+							"count_geki": 201,
+							"count_katu": 5,
+							"count_miss": 0
+						},
+						"type": "legacy_match_score",
+						"user_id": 10224047,
+						"current_user_attributes": {
+							"pin": null
+						},
+						"match": {
+							"slot": 7,
+							"team": "none",
+							"pass": true
+						}
+					}
+				]
+			}
+		},
+		{
+			"id": 2472791061,
+			"detail": {
+				"type": "player-left"
+			},
+			"timestamp": "2025-11-15T07:19:23+00:00",
+			"user_id": 10552096
+		},
+		{
+			"id": 2472791289,
+			"detail": {
+				"type": "player-joined"
+			},
+			"timestamp": "2025-11-15T07:21:56+00:00",
+			"user_id": 10552096
+		},
+		{
+			"id": 2472791344,
+			"detail": {
+				"type": "other",
+				"text": "Ultra Gimmick Hidden Cup 2 Winning Team"
+			},
+			"timestamp": "2025-11-15T07:22:36+00:00",
+			"user_id": null,
+			"game": {
+				"beatmap_id": 1513180,
+				"id": 628476527,
+				"start_time": "2025-11-15T07:22:36Z",
+				"end_time": null,
+				"match_id": 119830765,
+				"mode": "osu",
+				"mode_int": 0,
+				"scoring_type": "scorev2",
+				"team_type": "head-to-head",
+				"mods": [
+					"NF"
+				],
+				"beatmap": {
+					"beatmapset_id": 716193,
+					"difficulty_rating": 4.10157,
+					"id": 1513180,
+					"mode": "osu",
+					"status": "ranked",
+					"total_length": 237,
+					"user_id": 4330511,
+					"version": "Don't Suffer",
+					"beatmapset": {
+						"anime_cover": false,
+						"artist": "King Krule",
+						"artist_unicode": "King Krule",
+						"covers": {
+							"cover": "https://assets.ppy.sh/beatmaps/716193/covers/cover.jpg?1622131066",
+							"cover@2x": "https://assets.ppy.sh/beatmaps/716193/covers/cover@2x.jpg?1622131066",
+							"card": "https://assets.ppy.sh/beatmaps/716193/covers/card.jpg?1622131066",
+							"card@2x": "https://assets.ppy.sh/beatmaps/716193/covers/card@2x.jpg?1622131066",
+							"list": "https://assets.ppy.sh/beatmaps/716193/covers/list.jpg?1622131066",
+							"list@2x": "https://assets.ppy.sh/beatmaps/716193/covers/list@2x.jpg?1622131066",
+							"slimcover": "https://assets.ppy.sh/beatmaps/716193/covers/slimcover.jpg?1622131066",
+							"slimcover@2x": "https://assets.ppy.sh/beatmaps/716193/covers/slimcover@2x.jpg?1622131066"
+						},
+						"creator": "dsco",
+						"favourite_count": 489,
+						"genre_id": 5,
+						"hype": null,
+						"id": 716193,
+						"language_id": 2,
+						"nsfw": false,
+						"offset": 0,
+						"play_count": 379062,
+						"preview_url": "//b.ppy.sh/preview/716193.mp3",
+						"source": "",
+						"spotlight": true,
+						"status": "ranked",
+						"title": "Dum Surfer",
+						"title_unicode": "Dum Surfer",
+						"track_id": null,
+						"user_id": 4330511,
+						"video": false
+					}
+				},
+				"scores": []
+			}
+		},
+		{
+			"id": 2472791418,
+			"detail": {
+				"type": "other",
+				"text": "Ultra Gimmick Hidden Cup 2 Winning Team"
+			},
+			"timestamp": "2025-11-15T07:23:33+00:00",
+			"user_id": null,
+			"game": {
+				"beatmap_id": 1513180,
+				"id": 628476562,
+				"start_time": "2025-11-15T07:23:33Z",
+				"end_time": null,
+				"match_id": 119830765,
+				"mode": "osu",
+				"mode_int": 0,
+				"scoring_type": "scorev2",
+				"team_type": "head-to-head",
+				"mods": [
+					"NF"
+				],
+				"beatmap": {
+					"beatmapset_id": 716193,
+					"difficulty_rating": 4.10157,
+					"id": 1513180,
+					"mode": "osu",
+					"status": "ranked",
+					"total_length": 237,
+					"user_id": 4330511,
+					"version": "Don't Suffer",
+					"beatmapset": {
+						"anime_cover": false,
+						"artist": "King Krule",
+						"artist_unicode": "King Krule",
+						"covers": {
+							"cover": "https://assets.ppy.sh/beatmaps/716193/covers/cover.jpg?1622131066",
+							"cover@2x": "https://assets.ppy.sh/beatmaps/716193/covers/cover@2x.jpg?1622131066",
+							"card": "https://assets.ppy.sh/beatmaps/716193/covers/card.jpg?1622131066",
+							"card@2x": "https://assets.ppy.sh/beatmaps/716193/covers/card@2x.jpg?1622131066",
+							"list": "https://assets.ppy.sh/beatmaps/716193/covers/list.jpg?1622131066",
+							"list@2x": "https://assets.ppy.sh/beatmaps/716193/covers/list@2x.jpg?1622131066",
+							"slimcover": "https://assets.ppy.sh/beatmaps/716193/covers/slimcover.jpg?1622131066",
+							"slimcover@2x": "https://assets.ppy.sh/beatmaps/716193/covers/slimcover@2x.jpg?1622131066"
+						},
+						"creator": "dsco",
+						"favourite_count": 489,
+						"genre_id": 5,
+						"hype": null,
+						"id": 716193,
+						"language_id": 2,
+						"nsfw": false,
+						"offset": 0,
+						"play_count": 379062,
+						"preview_url": "//b.ppy.sh/preview/716193.mp3",
+						"source": "",
+						"spotlight": true,
+						"status": "ranked",
+						"title": "Dum Surfer",
+						"title_unicode": "Dum Surfer",
+						"track_id": null,
+						"user_id": 4330511,
+						"video": false
+					}
+				},
+				"scores": []
+			}
+		},
+		{
+			"id": 2472791500,
+			"detail": {
+				"type": "other",
+				"text": "Ultra Gimmick Hidden Cup 2 Winning Team"
+			},
+			"timestamp": "2025-11-15T07:24:45+00:00",
+			"user_id": null,
+			"game": {
+				"beatmap_id": 1513180,
+				"id": 628476595,
+				"start_time": "2025-11-15T07:24:45Z",
+				"end_time": "2025-11-15T07:28:24Z",
+				"match_id": 119830765,
+				"mode": "osu",
+				"mode_int": 0,
+				"scoring_type": "scorev2",
+				"team_type": "head-to-head",
+				"mods": [
+					"NF"
+				],
+				"beatmap": {
+					"beatmapset_id": 716193,
+					"difficulty_rating": 4.10157,
+					"id": 1513180,
+					"mode": "osu",
+					"status": "ranked",
+					"total_length": 237,
+					"user_id": 4330511,
+					"version": "Don't Suffer",
+					"beatmapset": {
+						"anime_cover": false,
+						"artist": "King Krule",
+						"artist_unicode": "King Krule",
+						"covers": {
+							"cover": "https://assets.ppy.sh/beatmaps/716193/covers/cover.jpg?1622131066",
+							"cover@2x": "https://assets.ppy.sh/beatmaps/716193/covers/cover@2x.jpg?1622131066",
+							"card": "https://assets.ppy.sh/beatmaps/716193/covers/card.jpg?1622131066",
+							"card@2x": "https://assets.ppy.sh/beatmaps/716193/covers/card@2x.jpg?1622131066",
+							"list": "https://assets.ppy.sh/beatmaps/716193/covers/list.jpg?1622131066",
+							"list@2x": "https://assets.ppy.sh/beatmaps/716193/covers/list@2x.jpg?1622131066",
+							"slimcover": "https://assets.ppy.sh/beatmaps/716193/covers/slimcover.jpg?1622131066",
+							"slimcover@2x": "https://assets.ppy.sh/beatmaps/716193/covers/slimcover@2x.jpg?1622131066"
+						},
+						"creator": "dsco",
+						"favourite_count": 489,
+						"genre_id": 5,
+						"hype": null,
+						"id": 716193,
+						"language_id": 2,
+						"nsfw": false,
+						"offset": 0,
+						"play_count": 379062,
+						"preview_url": "//b.ppy.sh/preview/716193.mp3",
+						"source": "",
+						"spotlight": true,
+						"status": "ranked",
+						"title": "Dum Surfer",
+						"title_unicode": "Dum Surfer",
+						"track_id": null,
+						"user_id": 4330511,
+						"video": false
+					}
+				},
+				"scores": [
+					{
+						"accuracy": 0.6737540009144948,
+						"best_id": null,
+						"created_at": "2025-11-15T07:24:45Z",
+						"id": null,
+						"max_combo": 36,
+						"mode": "osu",
+						"mode_int": 0,
+						"mods": [
+							"NF"
+						],
+						"passed": true,
+						"perfect": false,
+						"pp": null,
+						"rank": "C",
+						"replay": false,
+						"score": 30446,
+						"statistics": {
+							"count_100": 122,
+							"count_300": 443,
+							"count_50": 45,
+							"count_geki": 30,
+							"count_katu": 21,
+							"count_miss": 119
+						},
+						"type": "legacy_match_score",
+						"user_id": 10552096,
+						"current_user_attributes": {
+							"pin": null
+						},
+						"match": {
+							"slot": 0,
+							"team": "none",
+							"pass": true
+						}
+					},
+					{
+						"accuracy": 0.9926840420667581,
+						"best_id": null,
+						"created_at": "2025-11-15T07:24:45Z",
+						"id": null,
+						"max_combo": 492,
+						"mode": "osu",
+						"mode_int": 0,
+						"mods": [
+							"NF"
+						],
+						"passed": true,
+						"perfect": false,
+						"pp": null,
+						"rank": "A",
+						"replay": false,
+						"score": 653048,
+						"statistics": {
+							"count_100": 2,
+							"count_300": 723,
+							"count_50": 0,
+							"count_geki": 115,
+							"count_katu": 1,
+							"count_miss": 4
+						},
+						"type": "legacy_match_score",
+						"user_id": 10224047,
+						"current_user_attributes": {
+							"pin": null
+						},
+						"match": {
+							"slot": 7,
+							"team": "none",
+							"pass": true
+						}
+					}
+				]
+			}
+		},
+		{
+			"id": 2472791978,
+			"detail": {
+				"type": "other",
+				"text": "Ultra Gimmick Hidden Cup 2 Winning Team"
+			},
+			"timestamp": "2025-11-15T07:29:11+00:00",
+			"user_id": null,
+			"game": {
+				"beatmap_id": 4048863,
+				"id": 628476752,
+				"start_time": "2025-11-15T07:29:11Z",
+				"end_time": "2025-11-15T07:32:14Z",
+				"match_id": 119830765,
+				"mode": "osu",
+				"mode_int": 0,
+				"scoring_type": "scorev2",
+				"team_type": "head-to-head",
+				"mods": [
+					"NF",
+					"HD"
+				],
+				"beatmap": {
+					"beatmapset_id": 1954897,
+					"difficulty_rating": 5.54582,
+					"id": 4048863,
+					"mode": "osu",
+					"status": "ranked",
+					"total_length": 189,
+					"user_id": 10646707,
+					"version": "Ralkinxiaon's Collab Extra",
+					"beatmapset": {
+						"anime_cover": false,
+						"artist": "baker",
+						"artist_unicode": "baker",
+						"covers": {
+							"cover": "https://assets.ppy.sh/beatmaps/1954897/covers/cover.jpg?1706642299",
+							"cover@2x": "https://assets.ppy.sh/beatmaps/1954897/covers/cover@2x.jpg?1706642299",
+							"card": "https://assets.ppy.sh/beatmaps/1954897/covers/card.jpg?1706642299",
+							"card@2x": "https://assets.ppy.sh/beatmaps/1954897/covers/card@2x.jpg?1706642299",
+							"list": "https://assets.ppy.sh/beatmaps/1954897/covers/list.jpg?1706642299",
+							"list@2x": "https://assets.ppy.sh/beatmaps/1954897/covers/list@2x.jpg?1706642299",
+							"slimcover": "https://assets.ppy.sh/beatmaps/1954897/covers/slimcover.jpg?1706642299",
+							"slimcover@2x": "https://assets.ppy.sh/beatmaps/1954897/covers/slimcover@2x.jpg?1706642299"
+						},
+						"creator": "dragonicz",
+						"favourite_count": 120,
+						"genre_id": 10,
+						"hype": null,
+						"id": 1954897,
+						"language_id": 3,
+						"nsfw": false,
+						"offset": 0,
+						"play_count": 59325,
+						"preview_url": "//b.ppy.sh/preview/1954897.mp3",
+						"source": "",
+						"spotlight": false,
+						"status": "ranked",
+						"title": "Kimi ga Kimi ga -vocanico remix-",
+						"title_unicode": "君が君が -vocanico remix-",
+						"track_id": 9777,
+						"user_id": 11601269,
+						"video": false
+					}
+				},
+				"scores": [
+					{
+						"accuracy": 0.869198312236287,
+						"best_id": null,
+						"created_at": "2025-11-15T07:29:11Z",
+						"id": null,
+						"max_combo": 127,
+						"mode": "osu",
+						"mode_int": 0,
+						"mods": [
+							"NF",
+							"HD"
+						],
+						"passed": true,
+						"perfect": false,
+						"pp": null,
+						"rank": "B",
+						"replay": false,
+						"score": 138641,
+						"statistics": {
+							"count_100": 72,
+							"count_300": 589,
+							"count_50": 30,
+							"count_geki": 88,
+							"count_katu": 30,
+							"count_miss": 20
+						},
+						"type": "legacy_match_score",
+						"user_id": 10552096,
+						"current_user_attributes": {
+							"pin": null
+						},
+						"match": {
+							"slot": 0,
+							"team": "none",
+							"pass": true
+						}
+					},
+					{
+						"accuracy": 0.9913267698077824,
+						"best_id": null,
+						"created_at": "2025-11-15T07:29:11Z",
+						"id": null,
+						"max_combo": 989,
+						"mode": "osu",
+						"mode_int": 0,
+						"mods": [
+							"NF",
+							"HD"
+						],
+						"passed": true,
+						"perfect": false,
+						"pp": null,
+						"rank": "SH",
+						"replay": false,
+						"score": 1026285,
+						"statistics": {
+							"count_100": 8,
+							"count_300": 702,
+							"count_50": 1,
+							"count_geki": 136,
+							"count_katu": 5,
+							"count_miss": 0
+						},
+						"type": "legacy_match_score",
+						"user_id": 10224047,
+						"current_user_attributes": {
+							"pin": null
+						},
+						"match": {
+							"slot": 7,
+							"team": "none",
+							"pass": true
+						}
+					}
+				]
+			}
+		},
+		{
+			"id": 2472792374,
+			"detail": {
+				"type": "other",
+				"text": "Ultra Gimmick Hidden Cup 2 Winning Team"
+			},
+			"timestamp": "2025-11-15T07:33:03+00:00",
+			"user_id": null,
+			"game": {
+				"beatmap_id": 24023,
+				"id": 628476867,
+				"start_time": "2025-11-15T07:33:03Z",
+				"end_time": "2025-11-15T07:35:18Z",
+				"match_id": 119830765,
+				"mode": "osu",
+				"mode_int": 0,
+				"scoring_type": "scorev2",
+				"team_type": "head-to-head",
+				"mods": [
+					"NF",
+					"EZ"
+				],
+				"beatmap": {
+					"beatmapset_id": 4392,
+					"difficulty_rating": 5.68911,
+					"id": 24023,
+					"mode": "osu",
+					"status": "ranked",
+					"total_length": 137,
+					"user_id": 5960,
+					"version": "Gold",
+					"beatmapset": {
+						"anime_cover": false,
+						"artist": "Hyadain",
+						"artist_unicode": "Hyadain",
+						"covers": {
+							"cover": "https://assets.ppy.sh/beatmaps/4392/covers/cover.jpg?1622021938",
+							"cover@2x": "https://assets.ppy.sh/beatmaps/4392/covers/cover@2x.jpg?1622021938",
+							"card": "https://assets.ppy.sh/beatmaps/4392/covers/card.jpg?1622021938",
+							"card@2x": "https://assets.ppy.sh/beatmaps/4392/covers/card@2x.jpg?1622021938",
+							"list": "https://assets.ppy.sh/beatmaps/4392/covers/list.jpg?1622021938",
+							"list@2x": "https://assets.ppy.sh/beatmaps/4392/covers/list@2x.jpg?1622021938",
+							"slimcover": "https://assets.ppy.sh/beatmaps/4392/covers/slimcover.jpg?1622021938",
+							"slimcover@2x": "https://assets.ppy.sh/beatmaps/4392/covers/slimcover@2x.jpg?1622021938"
+						},
+						"creator": "mtmcl",
+						"favourite_count": 500,
+						"genre_id": 2,
+						"hype": null,
+						"id": 4392,
+						"language_id": 3,
+						"nsfw": false,
+						"offset": -15,
+						"play_count": 1845326,
+						"preview_url": "//b.ppy.sh/preview/4392.mp3",
+						"source": "",
+						"spotlight": false,
+						"status": "ranked",
+						"title": "Chocobo",
+						"title_unicode": "Chocobo",
+						"track_id": null,
+						"user_id": 5960,
+						"video": true
+					}
+				},
+				"scores": [
+					{
+						"accuracy": 0.596441947565543,
+						"best_id": null,
+						"created_at": "2025-11-15T07:33:03Z",
+						"id": null,
+						"max_combo": 94,
+						"mode": "osu",
+						"mode_int": 0,
+						"mods": [
+							"NF",
+							"EZ"
+						],
+						"passed": true,
+						"perfect": false,
+						"pp": null,
+						"rank": "D",
+						"replay": false,
+						"score": 18563,
+						"statistics": {
+							"count_100": 45,
+							"count_300": 191,
+							"count_50": 38,
+							"count_geki": 22,
+							"count_katu": 5,
+							"count_miss": 82
+						},
+						"type": "legacy_match_score",
+						"user_id": 10552096,
+						"current_user_attributes": {
+							"pin": null
+						},
+						"match": {
+							"slot": 0,
+							"team": "none",
+							"pass": true
+						}
+					},
+					{
+						"accuracy": 0.9925093632958801,
+						"best_id": null,
+						"created_at": "2025-11-15T07:33:03Z",
+						"id": null,
+						"max_combo": 610,
+						"mode": "osu",
+						"mode_int": 0,
+						"mods": [
+							"NF",
+							"EZ"
+						],
+						"passed": true,
+						"perfect": false,
+						"pp": null,
+						"rank": "S",
+						"replay": false,
+						"score": 490456,
+						"statistics": {
+							"count_100": 4,
+							"count_300": 352,
+							"count_50": 0,
+							"count_geki": 66,
+							"count_katu": 1,
+							"count_miss": 0
+						},
+						"type": "legacy_match_score",
+						"user_id": 10224047,
+						"current_user_attributes": {
+							"pin": null
+						},
+						"match": {
+							"slot": 7,
+							"team": "none",
+							"pass": true
+						}
+					}
+				]
+			}
+		},
+		{
+			"id": 2472792642,
+			"detail": {
+				"type": "player-left"
+			},
+			"timestamp": "2025-11-15T07:35:31+00:00",
+			"user_id": 10552096
+		},
+		{
+			"id": 2472792850,
+			"detail": {
+				"type": "match-disbanded"
+			},
+			"timestamp": "2025-11-15T07:37:31+00:00",
+			"user_id": null
+		}
+	],
+	"users": [
+		{
+			"avatar_url": "https://osu.ppy.sh/images/layout/avatar-guest@2x.png",
+			"country_code": "US",
+			"default_group": "default",
+			"id": 10224047,
+			"is_active": true,
+			"is_bot": false,
+			"is_deleted": false,
+			"is_online": false,
+			"is_supporter": true,
+			"last_visit": "2026-02-21T01:22:45+00:00",
+			"pm_friends_only": false,
+			"profile_colour": null,
+			"username": "Emerald Ages",
+			"country": {
+				"code": "US",
+				"name": "United States"
+			}
+		},
+		{
+			"avatar_url": "https://a.ppy.sh/10552096?1771154165.jpeg",
+			"country_code": "US",
+			"default_group": "default",
+			"id": 10552096,
+			"is_active": true,
+			"is_bot": false,
+			"is_deleted": false,
+			"is_online": false,
+			"is_supporter": true,
+			"last_visit": "2026-02-21T01:38:31+00:00",
+			"pm_friends_only": false,
+			"profile_colour": null,
+			"username": "HighDruh",
+			"country": {
+				"code": "US",
+				"name": "United States"
+			}
+		}
+	],
+	"first_event_id": 2472790289,
+	"latest_event_id": 2472792850,
+	"current_game_id": null
+}
